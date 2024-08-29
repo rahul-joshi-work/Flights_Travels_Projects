@@ -1,0 +1,1514 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html{
+   font-size: 1rem;
+   font-family: 'Courier New', Courier, monospace;
+   margin: 0;
+   padding: 0;
+}
+
+p,div{
+   margin: 0;
+   padding: 0;   
+}
+
+.row>*,p,div{
+   margin: 0;
+   padding: 0;
+}
+
+
+/* 600px and down */
+@media screen and (min-width: 250px) and (max-width: 600px){
+   
+   .navbar-nav .nav-link{
+      font-size: 1rem;
+      font-weight: 600;            
+   }
+   .Contectusbtn{
+    display: none;
+   }
+   .Reverseticketbtn{
+      display: block;
+      height: 50px;
+      width: 150px;
+      margin: 1.5rem auto 1.5rem auto; 
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 0.5rem;
+   }      
+   .Traveltoyoutdreamtitleimage{      
+      display: none;   
+   }
+   .Traveltoyoutdreamlargetext{
+      margin: 2rem auto 1rem auto;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 500;
+   }
+   .Traveltoyoutdreamsmalltext{
+      margin: 1rem auto 1rem auto;
+      width: 400px;
+      max-width: 100%;        
+      text-align: center;
+      font-size: 1.1rem;
+      font-weight: 500;
+   }
+   .creatememorybackground{
+      background-image: url('img/img2.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 320px;
+      width: auto;      
+      margin: 1rem 0rem 0rem 0rem;
+   }
+   .creatememorylargtext{
+      height: auto;
+      width: auto;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 700;         
+   }
+   .creatememorysmalltext{
+      color: white;
+      font-size: 1rem;
+      margin: 1rem auto 1rem auto;
+      width: 315px;
+      font-weight: 600;
+   }
+   .mytravellogbtn{
+      display: block;
+      height: 50px;
+      width: 150px;
+      margin: 1.5rem auto 1.5rem auto; 
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 0.5rem;
+   }          
+   .card{
+      border: 0;
+   }
+   .card-body .card-title{
+      font-size: 1.5rem;
+      font-weight: 600;
+   }
+   .card-body, .card-title, .card-text{
+      font-size: 1.2rem;
+      font-weight: 500;
+   }   
+   .airplanicon{
+      font-size: 3rem;
+      margin: 1rem auto 1rem auto;
+   }     
+   .container5_largtext1{
+      height: 40px;
+      width: auto;
+      max-width: 100%;
+      font-size: 20px;         
+      margin: 0 auto 0 auto;
+      font-weight: 800;      
+   }   
+   .container5_largtext1::after{     
+      display: none;
+   }
+   .container5_smalltext2{
+      font-size: 1rem;
+      margin: 2rem auto 1rem auto;
+      font-weight: 600;
+      width: 350px;
+      max-width: 100%;
+   }
+   .container6largimg{
+      display: none;
+   }
+   .container6smallimg{
+      display: none;
+   }      
+   .container6largtext{
+      display: none;
+   }
+   .container6smalltext1{
+     display: none;
+   }
+   .container6smalltext2{
+      display: none;           
+   }   
+   .container7largetext{
+      font-size: 22px;
+      font-weight: 700;      
+      margin: 0px auto 0px auto;         
+   }
+   .smalltitle1, .smalltitle2{
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin: 2rem auto 1rem auto;
+      width: auto;      
+   }
+   .smalltext1, .smalltext2{         
+      font-size: 1.1rem;
+      font-weight: 500;
+      width: 350px;
+      margin: 0rem auto 0rem auto;      
+   }
+   .container7largimg{
+     display: none;      
+   }
+   .container7largetext{
+      font-size: 22px;
+      font-weight: 700;      
+      margin: 0px auto 0px auto;         
+   }
+   .smalltitle1, .smalltitle2{
+      font-size: 22px;
+      font-weight: 600;
+      margin: 1rem auto 1rem auto;
+      text-align: center;
+   }
+   .smalltext1, .smalltext2{         
+      font-size: 1.1rem;
+      font-weight: 500;
+      width: 280px;
+      margin: 0px auto 0px auto;
+      text-align: justify;       
+   }
+   .container7largimg{
+     display: none;      
+   }
+   /* container - 8 */
+   .container8largtext{
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.2;
+      width: auto;
+      margin: 1rem auto 1rem auto;
+   }
+   .container8smalltext1{
+      margin: 0.5rem auto 0.5rem auto;
+      font-size: 1rem;
+      width: 100%;
+      text-align: center;
+      font-weight: 600;
+   }
+   .container8smalltext1::before{
+      content: "";
+      display: block;
+      padding: 0px;
+      margin: 0px;
+      height: 3px;
+      width: 100%;
+      background-color: black;
+   }
+   .container8smalltext2{
+      margin: 0.5rem auto 0.5rem auto;
+      font-size: 1rem;
+      width: 100%;
+      text-align: center;
+      font-weight: 600;
+   }
+   .container8smalltext2::after{
+      content: "";
+      display: block;
+      padding: 0px;
+      margin: 0px 0px 20px 0px;
+      height: 3px;
+      width: 100%;
+      background-color: black;
+   }      
+   .plusicon{
+      font-size: 1.1rem;         
+   }
+   .container8image{
+      display: none;
+   }
+   .container9largtext{
+      font-size: 25px;
+      font-weight: 700;             
+      margin: 5px auto;
+      height: 60px;
+   }
+   .carousel{
+      width: 80%;         
+      margin: 40px auto;          
+   }
+   .carousel-control-next, .carousel-control-prev{
+      display: none;
+   }
+   .cardimg{
+      height: 160px;
+      width: 160px;
+      margin: 10px auto;
+   }
+   .card1{
+      border: 2px solid black;        
+   }
+   .bi-arrow-left-square{
+      display: none;
+   }
+   .bi-arrow-right-square{
+      display: none;                    
+   }
+   .container10largetext{
+      font-size: 40px;
+      font-weight: 700;
+      text-align: center;
+   }      
+   .form-control{
+      width: 300px;
+      border: 1px solid black;  
+      margin: 0px auto;     
+   }
+   .commentxarea{
+      height: 150px;         
+   }
+   .submitbtn{
+      display: block;
+      width: 300px;
+      font-weight: 700;
+      font-size: 20px;
+      margin: 0px auto;
+   }
+   .container10largeimg{
+      display: none;   
+   }
+   .container10largetextmytravelog{
+      display: none;      
+   }
+   .footerquicklinktext{
+      font-size: 20px;
+      font-weight: 600;
+      padding: 10px;                  
+   }   
+   .fotterhometext1, 
+   .fotterabouttext1, 
+   .fottermytravellogstext1{
+      font-size: 18px;
+      font-weight: 500;
+      padding: 10px;    
+   }
+   .Recommendationtextwidth{
+     display: none;
+   }
+   .missionstatement{
+      display: none;
+   }
+   .lastfootertext{
+      font-size: 18px;
+      font-weight: 600;
+      padding: 20px;
+   }
+}
+
+/*  mobile device and 600px up */
+@media screen and (min-width: 600px){
+   
+   .navbar-nav .nav-link{
+      font-size: 1rem;
+      font-weight: 600;            
+   }
+   .Contectusbtn{
+    display: none;
+   }
+   .Reverseticketbtn{
+      display: block;
+      height: 50px;
+      width: 150px;
+      margin: 1.5rem auto 1.5rem auto; 
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 0.5rem;        
+   }      
+   .Traveltoyoutdreamtitleimage{      
+      display: none;   
+   }
+   .Traveltoyoutdreamlargetext{
+      margin: 2rem auto 1rem auto;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 500;
+   }
+   .Traveltoyoutdreamsmalltext{
+      margin: 1rem auto 1rem auto;
+      width: 400px;
+      max-width: 100%;        
+      text-align: center;
+      font-size: 1.1rem;
+      font-weight: 500;
+   }    
+   .creatememorybackground{
+      background-image: url('img/img2.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 280px;
+      width: auto;      
+      margin: 1rem 0rem 0rem 0rem;
+   }
+   .creatememorylargtext{
+      height: 40px;
+      width: auto;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 500;         
+   }
+   .container5_largtext1::after{     
+      content: "";
+      display: block;
+      background-color: black;
+      position: relative;
+      height: 1%;
+      width: 15%;
+      top: 1%;
+      left: 15%;
+      bottom: 0;
+      right: 0;        
+   }
+   .creatememorysmalltext{
+      color: white;
+      font-size: 0.8rem;
+      margin: 1rem auto 1rem auto;
+      width: 270px;
+      font-weight: 600;
+   }
+   .mytravellogbtn{
+      display: block;
+      height: 50px;
+      width: 150px;
+      margin: 1.5rem auto 1.5rem auto; 
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 0.5rem;
+   }  
+   .card{
+      border: 0;
+   }
+   .card-body .card-title{
+      font-size: 1.1rem;
+      font-weight: 600;
+   }
+   .card-body, .card-title, .card-text{
+      font-size: 0.8rem;
+      font-weight: 500;
+   }
+   .airplanicon{
+      font-size: 4.5rem;
+   }
+   .container5_largtext1{
+      height: 120px;
+      width: 550px;
+      max-width: 100%;
+      font-size: 50px;         
+      margin: 0 auto 0 auto;
+      font-weight: 800;
+      line-height: 1.2;
+   }   
+   .container5_largtext1::after{     
+      content: "";
+      display: block;
+      background-color: black;
+      position: relative;
+      height: 1%;
+      width: 23%;
+      top: 1%;
+      left: 9.5%;
+      bottom: 0;
+      right: 0;        
+   }
+   .container5_smalltext2{
+      font-size: 1rem;
+      margin: 2rem auto 1rem auto;
+      font-weight: 600;
+      width: 550px;
+      max-width: 100%;
+   }   
+   .container6largimg{
+      display: none;
+   }
+   .container6smallimg{
+      display: none;
+   }      
+   .container6largtext{
+      display: none;
+   }
+   .container6smalltext1{
+      font-size: 1rem;
+      font-weight: 500;
+      width: auto;
+   }
+   .container6smalltext2{
+      font-size: 1rem;      
+      font-weight: 500;
+      width: auto
+   }
+   .container7largetext{
+      font-size: 25px;
+      font-weight: 700;      
+      margin: 0px auto 0px auto;
+   }
+   .smalltitle1, .smalltitle2{         
+      font-size: 22px;
+      font-weight: 600;
+      margin: 0px auto 0px auto;
+      text-align: left;
+
+   }
+   .smalltext1, .smalltext2{         
+      font-size: 1.1rem;
+      font-weight: 500;
+      width: auto;
+      margin: 0px auto 0px auto;
+   }
+   .container7largimg{
+     display: none;      
+   }
+   /* container - 8 */
+   .container8largtext{
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 1.2;
+      width: auto;
+   }
+   .container8smalltext1{
+      font-size: 18px;
+      width: 100%;
+      text-align: center;
+      font-weight: 500;
+   }
+   .container8smalltext1::before{
+      content: "";
+      display: block;
+      padding: 0px;
+      margin: 0px;
+      height: 3px;
+      width: 100%;
+      background-color: black;
+   }
+   .container8smalltext2{
+      font-size: 18px;
+      width: 100%;
+      text-align: center;
+      font-weight: 500;
+   }
+   .container8smalltext2::after{
+      content: "";
+      display: block;
+      padding: 0px;
+      margin: 0px;
+      height: 3px;
+      width: 100%;
+      background-color: black;
+   }      
+   .plusicon{
+      font-size: 25px;         
+   }
+   .container8image{
+      display: none;
+   }
+   .container9largtext{
+      font-size: 35px;
+      font-weight: 700;      
+      height: 50px;         
+   }           
+   .carousel{
+      height: 100%;
+      width: 100%;         
+      margin: 0px auto;          
+   }
+   .cardimg{
+      height: 150px;
+      width: 150px;
+      margin: 10px auto;
+   }
+   .card1{
+      border: 2px solid black !important;        
+   }
+   .bi-arrow-left-square{
+      display: none;
+   }
+   .bi-arrow-right-square{
+      display: none;                    
+   }
+   .container10largetext{
+      font-size: 40px;
+      font-weight: 700;
+      text-align: center;
+   }      
+   .form-control{
+      width: 320px;
+      border: 1px solid black;  
+      margin: 0 auto;     
+   }
+   .commentxarea{
+      height: 150px;         
+   }
+   .submitbtn{
+      display: block;
+      width: 320px;
+      font-weight: 700;
+      font-size: 18px;
+      margin: 0px auto;
+   }
+   .container10largeimg{
+      display: none;
+   }
+   .container10largetextmytravelog{
+      display: none; 
+   }
+   .footerquicklinktext{
+      font-size: 20px;
+      font-weight: 600;
+      padding: 0px;                  
+   }   
+   .fotterhometext1, 
+   .fotterabouttext1, 
+   .fottermytravellogstext1{
+      font-size: 18px;
+      font-weight: 500;
+      padding: 5px;
+   }
+   .Recommendationtextwidth{
+     display: none;
+   }
+   .missionstatement{
+      display: none;
+   }
+   .lastfootertext{
+      font-size: 18px;
+      font-weight: 600;
+   }
+   
+}
+
+@media screen and (min-width: 768px){
+   .navbar-nav .nav-link{
+      font-size: 1rem;
+      font-weight: 600;            
+   }
+   .Contectusbtn{
+    display: none;
+   }
+   .Reverseticketbtn{
+      height: 50px;
+      width: 150px;
+      font-size: 1rem;
+      font-weight: 500;
+      background-color: aliceblue;
+      margin: 1rem auto 0rem auto;
+      padding: 0.5rem;         
+   }      
+   .Traveltoyoutdreamtitleimage{      
+      display: none;   
+   }
+   .Traveltoyoutdreamlargetext{
+      margin: 1rem auto 1rem auto;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 700;
+   }
+   .Traveltoyoutdreamsmalltext{
+      margin: 1rem auto 1rem auto;
+      width: 400px;
+      max-width: 100%;        
+      text-align: center;
+      font-size: 1.1rem;
+   }   
+   .creatememorybackground{
+      background-image: url('img/img2.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 300px;
+      width: auto;
+   }
+   .creatememorylargtext{
+      height: 60px;
+      width: auto;
+      color: white;
+      font-size: 2rem;
+      font-weight: 500;         
+   }
+   .creatememorysmalltext{
+      color: white;
+      font-size: 1rem;
+      margin: 1rem auto 1rem auto;
+      width: 450px;
+      font-weight: 600;
+   }
+   .mytravellogbtn{
+      display: block;
+      height: 50px;
+      width: 150px;
+      margin: 1.5rem auto 1.5rem auto; 
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 0.5rem;
+   }
+   .card{
+      border: 0;
+   }
+   .card-body .card-title{
+      font-size: 1.2rem;
+      font-weight: 600;
+   }
+   .card-body, .card-title, .card-text{
+      font-size: 1rem;
+      font-weight: 500;
+   }
+   .airplanicon{
+      font-size: 5rem;
+      margin: 1rem auto 1rem auto;
+   }
+   .container5_largtext1{
+      height: 205px;
+      width: auto;
+      max-width: 100%;
+      font-size: 70px;         
+      margin: 0 auto 0 auto;
+      font-weight: 800;
+      line-height: 1.2;
+   }   
+   .container5_largtext1::after{           
+      display: none;              
+   }
+   .container5_smalltext2{
+      font-size: 1.5rem;
+      margin: -8rem auto 1rem auto;
+      font-weight: 600;
+      width: 700px;
+      max-width: 100%;
+   } 
+   .container6largimg{
+      display: block;
+      height: 500px;
+      width: auto;
+      background-image: url('img/img6.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+   .container6smallimg{
+      display: none;
+   }      
+   .container6largtext{
+      display: none;
+   }
+   .container6smalltext1{
+      font-size: 22px;
+      font-weight: 500;
+      width: 350px;
+   }
+   .container6smalltext2{
+      font-size: 22px;
+      font-weight: 500;
+      width: 350px;
+   }
+   .container7largetext{
+      font-size: 25px;
+      font-weight: 700;      
+      margin: 0px auto 0px auto;         
+   }
+   .smalltitle1, .smalltitle2{
+      font-size: 22px;
+      font-weight: 600;
+      margin: 1rem auto 1rem auto;     
+   }
+   .smalltext1, .smalltext2{         
+      font-size: 1rem;
+      font-weight: 500;
+      width: 280px;
+   }
+   .container7largimg{
+      display: block;
+      height: 700px;         
+      width: 100%;
+      background-image: url('./img/img8.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;        
+   }
+   /* container - 8 */
+   .container8largtext{
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 1.2;
+      width: auto;
+   }
+   .container8smalltext1{
+      font-size: 18px;
+      width: 100%;
+      text-align: center;
+      font-weight: 500;
+   }
+   .container8smalltext1::before{
+      content: "";
+      display: block;
+      padding: 0px;
+      margin: 0px;
+      height: 3px;
+      width: 100%;
+      background-color: black;
+   }
+   .container8smalltext2{
+      font-size: 18px;
+      width: 100%;
+      text-align: center;
+      font-weight: 500;
+   }
+   .container8smalltext2::after{
+      content: "";
+      display: block;
+      padding: 0px;
+      margin: 0px;
+      height: 3px;
+      width: 100%;
+      background-color: black;
+   }      
+   .plusicon{
+      font-size: 30px;         
+   }
+   .container8image{
+      display: none;
+   }
+   .container9largtext{
+      font-size: 35px;
+      font-weight: 700;
+      width: 100%;
+      height: 50px;         
+   }         
+   .carousel{
+      height: 100%;
+      width: 100%;         
+      margin: 0px auto;          
+   }
+   .cardimg{
+      height: 200px;
+      width: 200px;
+      margin: 10px auto;
+   }
+   .card1{
+      border: 2px solid black !important;        
+   }
+   .bi-arrow-left-square{
+      display: none;
+   }
+   .bi-arrow-right-square{
+      display: none;                    
+   }         
+   .container10largetext{
+      font-size: 40px;
+      font-weight: 700;
+      text-align: center;
+   }      
+   .form-control{
+      width: 400px;
+      border: 1px solid black;  
+      margin: 0 auto;     
+   }
+   .commentxarea{
+      height: 150px;         
+   }
+   .submitbtn{
+      display: block;
+      width: 400px;
+      font-weight: 700;
+      font-size: 20px;
+      margin: 0px auto;
+   }
+   .container10largeimg{
+      display: none;
+   }
+   .container10largetextmytravelog{
+      font-size: 25px;
+      font-weight: 700;
+      height: 60px;
+      width: 100px;
+      margin: 0px auto;
+      line-height: 1.1;
+      display: block;
+   }
+   .footerquicklinktext{
+      font-size: 22px;
+      font-weight: 600;
+      padding: 0px;                  
+   }   
+   .fotterhometext1, 
+   .fotterabouttext1, 
+   .fottermytravellogstext1{
+      font-size: 18px;
+      font-weight: 500;
+      padding: 5px;
+   }
+   .Recommendationtextwidth{
+     display: none;
+   }
+   .missionstatement{
+      display: none;
+   }
+   .lastfootertext{
+      font-size: 18px;
+      font-weight: 600;
+   }
+}
+
+@media screen and (min-width: 992px){
+      .navbar-nav .nav-link{
+         font-size: 1rem;
+         font-weight: 500;            
+      }
+      .Contectusbtn{
+         height: 50px;
+         width: 200px;
+         margin: 0px 0px 0px 120px;         
+         font-size: 1.1rem;
+         font-weight: 500;
+         padding: 0.5rem;
+      }
+      .Reverseticketbtn{
+         height: 50px;
+         width: 200px;
+         font-size: 1.1rem;
+         font-weight: 500;
+         background-color: aliceblue;
+         margin: 1rem auto 0rem auto;
+         padding: 0.5rem;         
+      }      
+      .Traveltoyoutdreamtitleimage{      
+         display: block;
+         height: 500px;
+         width: 600px;
+         max-width: 100%;
+         background-repeat: no-repeat;
+         background-image: url('img/img1.jpg');
+         background-size: contain;
+         background-position: center;         
+      }
+      .Traveltoyoutdreamlargetext{
+         margin: 0 auto;
+         text-align: center;
+         font-size: 50px;
+         font-weight: 700;
+
+      }
+      .Traveltoyoutdreamsmalltext{
+         margin: 0.5rem auto 0.5rem auto;
+         width: 400px;
+         max-width: 100%;        
+         text-align: center;
+         font-size: 1.1rem;
+      }
+      .creatememorybackground{
+         background-image: url('img/img2.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 350px;
+         width: auto;
+      }
+      .creatememorylargtext{
+         height: 80px;
+         width: auto;
+         color: white;
+         font-size: 3rem;
+         font-weight: 500;         
+      }
+      .creatememorysmalltext{
+         color: white;
+         font-size: 1.1rem;
+         margin: 1rem auto 1rem auto;
+         width: 600px;
+         font-weight: 600;
+      }
+      .mytravellogbtn{
+         display: block;
+         height: 50px;
+         width: 200px;
+         margin: 1.5rem auto 1.5rem auto; 
+         font-size: 1.2rem;
+         font-weight: 500;
+         padding: 0.2rem 0.2rem;
+      }
+      .card{
+         border: 0;
+      }
+      .card-body .card-title{
+         font-size: 1.5rem;
+         font-weight: 700;
+      }
+      .card-body, .card-title, .card-text{
+         font-size: 1rem;
+         font-weight: 500;
+      }
+      .airplanicon{
+         font-size: 5rem;
+         margin: 1rem auto 1rem auto;
+      }
+      .container5_largtext1{
+         height: 225px;
+         width: auto;
+         max-width: 100%;
+         font-size: 70px;         
+         margin: 0 auto 0 auto;
+         font-weight: 800;
+         line-height: 1.2;
+      }
+      .container5_largtext1::after{     
+         content: "";
+         display: block;
+         position: relative;
+         background-color: black;
+         height: 5px;
+         width: 20%;
+         top: 15px;
+         left: 40%;
+         bottom: 0;
+         right: 0;        
+      }     
+      .container5_smalltext2{
+         font-size: 1.5rem;
+         margin: -5rem auto 1rem auto;
+         font-weight: 600;
+         width: auto;
+         max-width: 100%;
+      }      
+      .container6largimg{
+         height: 700px;
+         width: auto;
+         background-image: url('img/img6.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+      .container6smallimg{
+         display: block;
+         height: 300px;
+         width: 400px;
+         background-image: url('img/img5.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+      }      
+      .container6largtext{
+         display: block;
+         font-size:19px;
+         font-weight: 700;
+         width: 90%;
+      }
+      .container6smalltext1{
+         font-size: 17px;
+         font-weight: 500;
+         width: 350px;
+      }
+      .container6smalltext2{
+         font-size: 17px;
+         font-weight: 500;
+         width: 350px;
+      }
+      /* container - 7 */
+      .container7largetext{
+         font-size: 35px;
+         font-weight: 700;
+         line-height: 1.2;
+         margin: 0px auto 0px auto;         
+      }
+      .smalltitle1, .smalltitle2{
+         font-size: 25px;
+         font-weight: 500;
+      }
+      .smalltext1, .smalltext2{         
+         font-size: 18px;
+         font-weight: 500;
+         width: 400px;
+      }
+      .container7largimg{
+         display: block;         
+         height: 800px;         
+         width: 100%;
+         max-width: 100%;
+         background-image: url('./img/img8.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;        
+      }      
+      /* container - 8 */
+      .container8largtext{
+         font-size: 37px;
+         font-weight: 700;
+         line-height: 1.2;
+         width: auto;
+      }
+      .container8smalltext1{
+         font-size: 18px;
+         width: 700px;
+         font-weight: 500;
+         text-align: left;
+      }
+      .container8smalltext1::before{
+         content: "";
+         display: block;
+         padding: 0px;
+         margin: 0px;
+         height: 3px;
+         width: 500px;
+         background-color: black;
+      }
+      .container8smalltext2{
+         font-size: 18px;
+         width: 700px;
+         font-weight: 500;
+         text-align: left;
+      }
+      .container8smalltext2::after{
+         content: "";
+         display: block;
+         padding: 0px;
+         margin: 0px;
+         height: 3px;
+         width: 500px;
+         background-color: black;
+      }      
+      .plusicon{
+         font-size: 30px;         
+      }
+      .container8image{
+         display: block;
+         background-image: url('img/img6.jpg');
+         background-size: cover;
+         background-repeat: no-repeat;
+         height: 370px;
+         width: 380px;
+      }
+      .container9largtext{
+         font-size: 50px;
+         font-weight: 700;
+         width: 100%;
+         height: 70px;         
+      }      
+      .carousel{
+         height: 100%;
+         width: 80%;         
+         margin: 0px auto;          
+      }
+      .cardimg{
+         height: 200px;
+         width: 200px;
+         margin: 10px auto;
+      }
+      .card1{
+         border: 2px solid black !important;        
+      }
+      .bi-arrow-left-square{
+         display: block;
+         margin: auto 175px auto auto;
+         font-size: 60px;
+         color: black;
+      }
+      .bi-arrow-right-square{
+         display: block;
+         margin: auto auto auto 175px;
+         font-size: 60px;
+         color: black;              
+      }      
+      .container10largetext{
+         font-size: 40px;
+         font-weight: 700;
+         text-align: center;
+      }      
+      .form-control{
+         width: 400px;
+         border: 1px solid black;       
+         margin: 0px auto;
+      }
+      .commentxarea{
+         height: 150px;         
+      }
+      .submitbtn{
+         width: 400px;
+         font-weight: 700;
+         font-size: 20px; 
+         display: block;
+         margin: 0px auto;
+      }
+      .container10largeimg{
+         height: 480px;
+         width: 100%;
+         max-width: 100%;
+         background-image: url('img/img4.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         display: block;
+      }      
+      .container10largetextmytravelog{
+         font-size: 40px;
+         font-weight: 700;
+         height: 140px;
+         width: 140px;
+         margin: 0px auto;
+         line-height: 1.1;
+         display: block;
+      }
+      .footerquicklinktext{
+         font-size: 30px;
+         font-weight: 600;
+         padding: 10px;                  
+      }
+      
+      .fotterhometext1, 
+      .fotterabouttext1, 
+      .fottermytravellogstext1{
+         font-size: 20px;
+         font-weight: 600;
+         padding: 5px;
+      }
+      .Recommendationtextwidth{         
+         display: none;
+      }
+      .missionstatement{
+         display: none;
+      }
+      .lastfootertext{
+         font-size: 22px;
+         font-weight: 600;
+      }                
+     
+}
+ 
+
+@media screen and (min-width: 1200px){
+
+      .navbar-nav .nav-link{
+         font-size: 1.2rem;
+         font-weight: 500;            
+      }
+      .Contectusbtn{
+         height: 50px;
+         width: 200px;
+         margin: 0px 0px 0px 400px;         
+         font-size: 1.1rem;
+         font-weight: 500;
+      }      
+      .Reverseticketbtn{
+         height: 50px;
+         width: 200px;
+         font-size: 1.1rem;
+         font-weight: 500;
+         background-color: aliceblue;
+         margin: 1rem auto 0rem auto;
+         padding: 0.5rem;         
+      }      
+      .Traveltoyoutdreamtitleimage{      
+         height: 60vh;
+         width: 50vw;
+         max-width: 100%;
+         background-repeat: no-repeat;
+         background-image: url('img/img1.jpg');
+         background-size: cover;   
+         background-position: center;
+      }
+      .Traveltoyoutdreamlargetext{
+         margin: 0px auto;
+         text-align: center;
+         font-size: 3rem;
+      }
+      .Traveltoyoutdreamsmalltext{
+         margin: 10px auto;
+         width: 500px;
+         max-width: 100%;        
+         text-align: center;
+         font-size: 1.1rem;
+      }
+      .creatememorybackground{
+         background-image: url('img/img2.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 400px;
+         width: auto;
+      }
+      .creatememorylargtext{
+         height: 120px;
+         width: auto;
+         color: white;
+         font-size: 5rem;
+         font-weight: 700;         
+      }
+      .creatememorysmalltext{
+         color: white;
+         font-size: 1.2rem;
+         margin: 1rem auto 1rem auto;
+         width: 600px;
+         font-weight: 600;
+      }
+      .mytravellogbtn{
+         display: block;
+         height: 50px;
+         width: 200px;
+         margin: 1rem auto 1rem auto; 
+         font-size: 1.2rem;
+         font-weight: 500;
+         padding: 0.2rem 0.2rem;
+      }
+      .card {
+         border: 0;
+      }
+      .card-body .card-title{
+         font-size: 1.5rem;
+         font-weight: 700;
+      }
+      .card-body, .card-title, .card-text{
+         font-size: 1rem;
+         font-weight: 500;
+      }
+      .airplanicon{
+         font-size: 5rem;
+         margin: 1rem auto 1rem auto;
+      }
+      .container5_largtext1{
+         height: 300px;
+         width: auto;
+         max-width: 100%;
+         font-size: 120px;         
+         margin: 0 auto 0 auto;
+         font-weight: 800;
+         line-height: 1.2;
+      }
+      .container5_largtext1::after{     
+         content: "";
+         display: block;
+         background-color: black;
+         height: 5px;
+         width: 23%;
+         top: 0px;
+         left: 10%;
+         bottom: 0;
+         right: 0;        
+      }     
+      .container5_smalltext2{
+         font-size: 1.5rem;
+         margin: 0rem auto 1rem auto;
+         font-weight: 600;
+         width: auto;
+         max-width: 100%;
+      }      
+      .container6largimg{
+         height: 700px;
+         width: auto;
+         background-image: url('img/img6.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+      .container6smallimg{
+         height: 300px;
+         width: 500px;
+         background-image: url('img/img5.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+      .container6largtext{
+         display: block;
+         font-size:20px;
+         font-weight: 700;
+         width: 80%;         
+      }
+      .container6smalltext1{
+         font-size: 17px;
+         font-weight: 500;
+         width: 350px;         
+      }
+      .container6smalltext2{
+         font-size: 17px;
+         font-weight: 500;
+         width: 350px;         
+      }      
+      .container7largetext{
+         font-size: 45px;
+         font-weight: 700;
+         line-height: 1.2;
+         margin: 0px auto 0px auto;
+         width: auto;           
+      }
+      .smalltitle1, .smalltitle2{
+         font-size: 25px;
+         font-weight: 500;
+         width: auto;
+         margin: 0rem auto 0rem auto;         
+      }
+      .smalltext1, .smalltext2{         
+         font-size: 18px;
+         font-weight: 500;
+         width: 500px;
+      }
+      .container7largimg{
+         display: block;
+         height: 700px;
+         width: 100%;
+         background-image: url('./img/img8.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;        
+      }
+      /* container - 8 */
+      .container8largtext{
+         font-size: 50px;
+         font-weight: 700;
+         line-height: 1.2;
+         width: auto;
+      }
+      .container8smalltext1{
+         font-size: 22px;
+         width: auto;
+         font-weight: 600;
+         text-align: left;
+      }
+      .container8smalltext1::before{
+         content: "";
+         display: block;
+         padding: 0px;
+         margin: 0px;
+         height: 3px;
+         width: 600px;
+         background-color: black;
+      }
+      .container8smalltext2{
+         font-size: 22px;
+         width: auto;
+         font-weight: 600;
+         text-align: left;
+      }
+      .container8smalltext2::after{
+         content: "";
+         display: block;
+         padding: 0px;
+         margin: 0px;
+         height: 3px;
+         width: 600px;
+         background-color: black;
+      }      
+      .plusicon{
+         font-size: 30px;         
+      }
+      .container8image{
+         display: block;
+         background-image: url('img/img6.jpg');
+         background-size: cover;
+         background-repeat: no-repeat;
+         height: 500px;
+         width: 530px;
+      }      
+      .container9largtext{
+         font-size: 70px;
+         font-weight: 700;
+         width: 100%;
+         height: 100px;         
+      }
+      .carousel{
+         height: 100%;
+         width: 80%;         
+         margin: 0px auto;          
+      }
+      .cardimg{
+         height: 200px;
+         width: 200px;
+         margin: 10px auto;
+      }
+      .card1{
+         border: 3px solid black !important;        
+      }
+      .bi-arrow-left-square{
+         display: block;
+         margin: auto 200px auto auto;
+         font-size: 60px;
+         color: black;
+      }
+      .bi-arrow-right-square{
+         display: block;
+         margin: auto auto auto 200px;
+         font-size: 60px;
+         color: black;              
+      }
+      .container10largetext{
+         font-size: 50px;
+         font-weight: 700;
+         text-align: center;
+      }      
+      .form-control{
+         width: 570px;
+         border: 2px solid black;
+         margin: 0px auto;            
+      }
+      .commentxarea{
+         height: 150px;         
+      }
+      .submitbtn{
+         display: block;
+         width: 570px;
+         font-weight: 700;
+         font-size: 20px;        
+         margin: 0px auto;
+      }
+      .container10largeimg{
+         height: 500px;
+         width: 100%;
+         max-width: 100%;
+         background-image: url('img/img4.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+         display: block;
+      }
+      .container10largetextmytravelog{
+         font-size: 50px;
+         font-weight: 700;
+         text-align: center;
+         height: 120px;
+         width: 250px;
+         margin: 0px auto;
+         line-height: 1.1;
+         display: block;
+      }
+      .footerquicklinktext{
+         font-size: 30px;
+         font-weight: 600;
+         padding: 10px;                  
+      }      
+      .fotterhometext1, 
+      .fotterabouttext1, 
+      .fottermytravellogstext1{
+         font-size: 20px;
+         font-weight: 600;
+         padding: 10px;
+      }
+      .lastfootertext{
+         font-size: 22px;
+         font-weight: 600;
+      }
+      .Recommendationtextwidth{
+         display: block;
+      }
+      .missionstatement{
+         display: block;
+      }
+
+
+}
+
+
+
+
+@media screen and (min-width:1300px) {
+   
+   .bi-arrow-left-square{
+      display: block;
+      margin: 130px 214px auto auto;
+      font-size: 60px;
+      color: black;
+   }
+   .bi-arrow-right-square{
+      display: block;
+      margin: 130px auto auto 214px;
+      font-size: 60px;
+      color: black;              
+   }
+   .submitbtn{
+      display: block;
+      width: 570px;
+      font-weight: 700;
+      font-size: 20px;        
+      margin: 0px auto;
+   }
+}
+
+
+
+
